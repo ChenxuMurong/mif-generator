@@ -5,7 +5,8 @@ A mini-assembler that generates MIF files from a much more readable syntax. Exte
 
 `python3 mif_generator.py [> ...]`
 
-The output will be the text content of a .mif file, with meta information that works with the CPU.
+The script searches for a file named "instructions.txt", which should contain readable pseudo-code following the syntax defined below.
+The output will be the text content of a .mif file, concatenated with meta information that works with the RISC CPU for this particular project.
 
 The program prints to stdout by default but you can use the pipe function ">" to make it print to a certain output file.
 
